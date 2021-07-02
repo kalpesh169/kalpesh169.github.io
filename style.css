@@ -54,6 +54,55 @@ nav a{
     font-family: 'Raleway', sans-serif;
     color: #3d3d3d;
 }
+
+@media only screen and (max-width:768px){
+    .imgbx .img img{
+        height: 275px;       
+        width: 275px;
+        border-radius: 100%;
+        object-fit: cover;
+        top: 10%;
+        left: 33%;
+    }
+    .data{
+        font-size: 20px;
+        width: 500px;
+        top: 45%;
+        left: 18%;
+        line-height: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;    
+    }
+    .data a{
+        position: relative;
+        top: 17px;
+    }
+}
+@media only screen and (max-width:360px){
+    .imgbx .img img{
+        height: 150px;       
+        width: 150px;
+        border-radius: 100%;
+        object-fit: cover;
+        top: 10%;
+        left: 25%;
+    }
+    .data{
+        font-size: 18px;
+        width: 300px;
+        top: 45%;
+        left: 13%;
+        line-height: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;    
+    }
+    .data a{
+        position: relative;
+        top: 17px;
+    }
+}
 .data a{
     text-decoration: none;
     color: #fff;
