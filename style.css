@@ -158,8 +158,10 @@ nav a{
         top: 17px;
     }
 }
-@media screen and (max-width:360px){
-    
+@media screen and (max-width:420px){
+    body{
+        background-color:red;
+    }
     .imgbx .img img{
         height: 150px;       
         width: 150px;
