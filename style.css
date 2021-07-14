@@ -19,32 +19,32 @@ button{
     letter-spacing: 3px;
     background: transparent;
 }
-nav{
-    left: -100%;
-    position: absolute;
-    z-index: 1;
-    background: aquamarine;
-    height: 100vh;
-    width: 100%;
+/*nav{*/
+/*    left: -100%;*/
+/*    position: absolute;*/
+/*    z-index: 1;*/
+/*    background: aquamarine;*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
 
-}
-nav ul{
-    margin-top: 10%;
-}
-nav ul a{
-    color: #000;
-    top: 50vh;
-    text-decoration: none;
-}
-nav ul a:hover{
-    letter-spacing: 20px;
-    transition: all ease-in-out 0.5s;
-}
-nav ul li{
-    list-style-type: none;
-    margin: 1% 0;
-    padding: 20px;
-}
+/*}*/
+/*nav ul{*/
+/*    margin-top: 10%;*/
+/*}*/
+/*nav ul a{*/
+/*    color: #000;*/
+/*    top: 50vh;*/
+/*    text-decoration: none;*/
+/*}*/
+/*nav ul a:hover{*/
+/*    letter-spacing: 20px;*/
+/*    transition: all ease-in-out 0.5s;*/
+/*}*/
+/*nav ul li{*/
+/*    list-style-type: none;*/
+/*    margin: 1% 0;*/
+/*    padding: 20px;*/
+/*}*/
 .imgbx  img{
     height: 300px;
     width: 300px;
