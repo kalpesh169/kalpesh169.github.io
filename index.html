@@ -8,28 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button>Menu</button>
-<!--    <section id="nav">-->
-<!--        <nav>-->
-<!--            <ul>-->
-<!--            <li><a href="#">Home</a></li>-->
-<!--            <li><a href="#">Skills</a></li>-->
-<!--            <li><a href="#">Education</a></li>-->
-<!--            <li><a href="#">About</a></li>-->
-<!--            </ul>-->
-<!--        </nav>-->
-<!--    </section>-->
-    <section id="Home">
-        <div class="imgbx">
-            <div class="img"><img src="2.JPG" alt="my image"></div>
-            
+<section class="header">
+    <nav>
+        <a href="index.html" class="logo"><span>K</span>alpesh <span>P</span>rajapati</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hide()"></i>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </div>
-        <div class="data">
-                <h1>Hey Folks, I'm Kalpesh</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quia reiciendis repellat doloribus necessitatibus. Est ducimus ullam excepturi quae. Accusamus inventore hic, a distinctio beatae modi fugiat dolore mollitia repudiandae!
-                Itaque, dolore eveniet doloribus id voluptatibus eligendi cupiditate nulla libero amet et, similique harum dignissimos atque voluptatum hic ex quod obcaecati quas saepe vitae quidem? Eum suscipit tempore sit repellat!</p>
-                <br><a href="Kalpesh Resume.pdf" download="">Download</a>
-        </div>
-    </section>
+        <i class="fa fa-bars" onclick="show()"></i>
+    </nav>
+    <div class="hire">
+        <a href="#" class="hire-btn">Hire me</a>
+    </div>
+</section>
+
+<section class="skill">
+    <h1>Technical Skills</h1>
+
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function show(){
+        navLinks.style.right = "0";
+    }
+    function hide(){
+        navLinks.style.right = "-200px";
+    }
+</script>
 </body>
 </html>
